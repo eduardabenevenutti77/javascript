@@ -1,0 +1,13 @@
+//variáveis são espaços de informações que ficam alocadas na memória ram;
+//quando declaram as variáveis não pode ter: espaço, começar com número, possuir carcter especial;
+//usar nomes que indicam o que a variável irá armazenar;
+
+//pode se usar o comando: var, let ou const;
+
+//const e let não permitem que o prograna rode com problema;
+//para atribuir um valor a variável utilizamos (=);
+
+//o comando const determina que o valor atribuido não poderá ser alterado no decorrer do programa;
+//somente com o comando let poderemos fazer alterações durante o programa;
+
+//promp cria uma caixa de pergunta
