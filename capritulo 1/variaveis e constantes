@@ -11,3 +11,5 @@
 //somente com o comando let poderemos fazer alterações durante o programa;
 
 //promp cria uma caixa de pergunta
+
+//toFixed(numero) -> permite deixar tantos numeros apos a virgula

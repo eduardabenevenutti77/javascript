@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>como clacular o valor de um jantar com javascript</title>
+</head>
+<body>
+    <script>
+        const jantar = Number(prompt("qual é o valor do jantar?")) //cria-se uma variavel jantar que recebe o comando number para transformar o valor digitado em número
+        const garcom = jantar * 0.10 //cria-se variavel garcom e calcula o valor da gorjeta
+        const total = jantar + garcom //soma das duas variaveis dá o total gasto
+        alert('a taxa do garcom é ${garcom.toFixed(2)}\ e o total gasto foi de: ${total.toFixed(2)}')
+    </script>
+</body>
+</html>
