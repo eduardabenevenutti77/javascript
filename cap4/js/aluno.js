@@ -1,4 +1,6 @@
 const frm = document.querySelector("form")
+const r1 = document.querySelector("h3")
+const r2 = document.querySelector("h4")
 
 frm.addEventListener("submit", (e) =>{
     e.preventDefault() //evita que a form seja enviada
@@ -8,7 +10,18 @@ frm.addEventListener("submit", (e) =>{
 
     const media = (n1+n2)/2
 
-    alert("a média do/a " + nome + " é "+ media)
+    r1.innerText = `a média das notas é ${media.toFixed(2)}`
+
+    if(media>=7){
+        r2.innerText =`parabéns ${nome}! voce foi aprovado/a`
+        r2.style.color= "blue"
+    }else if(media >=4){
+        r2.innerText= `vc está em exame, ${nome}!`
+        r2.style.color= "green"
+    }else{
+        r2.innerText= `vc foi reprovado/a, ${nome}!`
+        r2.style.color= "red"
+    }
 
 
 })
