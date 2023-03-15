@@ -1,0 +1,25 @@
+//*pode usar somente o if ou os dois juntos;
+
+//so com o if: if (idade = 18){
+//console.log ("vc é maior de idade!")
+//}
+
+//if e else:
+//if (idade = 18)
+//{
+//console.log("vc é maior ")
+//} else {
+//("voce é menor de idade")
+//}
+
+//if/else/else
+//if(condição){comando}
+//else if (c 2){com 2}
+//else{com 3}
+
+// == -> igualdade
+// != -> diferença
+// > -> maior
+// < -> menor
+// >= -> maior ou igual
+// <= -> menor ou igual
