@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/jpg" href="img/kg.jpg">
+    <link rel="stylesheet" href="css/estilo.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>peso ideal</title>
 </head>
 <body>
-    <h3>descubra o seu peso ideal em javascript</h3>
+    <h2>descubra o seu peso ideal em javascript</h2>
     <form>
         <p>
-            nome do aluno:
+            nome:
             <input type="text" id="inNome" required>
         </p>
         <p>
@@ -18,11 +20,14 @@
             <input type="radio" name="sexo" id="inMasc" required> masculino
             <input type="radio" name="sexo" id="inFe" required> feminino
         </p>
-        
-        <input type="submit" value="calcular a média">
+        <p>
+            altura:
+            <input type="number" min="0" step="0.01" id="inAltura" required>
+        </p>
+        <input type="submit" value="calcular mmc">
+        <input type="reset" value="limpar campos">
     </form>
     <h3></h3>
-    <h4></h4>
-    <script src="js/aluno.js"></script>
+    <script src="js/peso.js"></script>
 </body>
 </html>

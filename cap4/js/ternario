@@ -1,0 +1,11 @@
+//possue 3 comandos
+//atalho do comando if  else
+//tem parâmetros para condições verdadeiras e falsas
+
+const categoria = idade >= 18? "adulto" : "juvenil"
+//const categoria -> declaração da variável categoria
+// = ->a condição deve ser inserida após o sinal de igualdade
+// idade>=18? "adulto"-> se a condição for verdadeira, valor é adicionado na variável
+    //portanto, a  pessoa deve ter desoito anos ou ter mais
+// : "juvenil" -> caso a condição seja falsa, o sistema mostrará a condição juvenil para o usuário
+

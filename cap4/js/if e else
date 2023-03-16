@@ -23,3 +23,7 @@
 // < -> menor
 // >= -> maior ou igual
 // <= -> menor ou igual
+
+//! ->negação e inverte o resultado da operação
+//&& -> indica que todas as operações são verdadeiras (a>b) && (b<a)
+// || -> uma das operações necessita ser verdadeiras (a>b) || (b=a)

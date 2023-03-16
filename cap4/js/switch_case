@@ -1,0 +1,15 @@
+//usado quando há várias alternativas dadas pela variável
+
+const bairro = prompt("qual é o seu bairro:") //pede o nome do bairro para o usuário
+let taxaEntrga //inicia a variavel de taxa
+switch (bairro) { 
+    case "centro":
+        taxaEntrga = 5.00
+        break;
+    case "3 vendas":
+        taxaEntrga = 7.00
+        break
+    default:
+        break;
+}
+alert(`taxa r$:${taxaEntrga.toFixed(2)}`)
